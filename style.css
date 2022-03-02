@@ -1,0 +1,36 @@
+.main-container{
+    width: 800px;
+    height: 1400px;
+    background-color: cyan;
+}
+.box{
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
+#box1{
+    background-color: yellow;
+}
+#box2{
+    position: relative;
+    left: 20px;
+    background-color: red;
+}
+#box3{
+    position: absolute;
+    left: 20px;
+    background-color: blue;
+}
+#box4{
+    position: fixed;
+    top: 400px;
+    left:500px;
+    background-color: green;
+}
+#box5{
+    position: sticky;
+    top:100px;
+    left: 600px;
+    background-color: black;
+    color: white;
+}
